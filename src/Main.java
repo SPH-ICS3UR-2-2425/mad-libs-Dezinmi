@@ -13,10 +13,18 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
-		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		System.out.println("Enter an sport");
+		String sport = in.nextLine();
+		System.out.println("Enter a girl's name");
+		String girlsName = in.nextLine();
+		System.out.println("Enter a body part");
+		String bodyPart = in.nextLine();
+		
+		
+		
+		//STORY
+		System.out.println("One day during "+sport+" practice, "+girlsName+" broke her "+bodyPart+"");
+		
 
 	}
 
