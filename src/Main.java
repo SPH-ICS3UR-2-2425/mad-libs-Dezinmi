@@ -19,11 +19,15 @@ public class Main {
 		String girlsName = in.nextLine();
 		System.out.println("Enter a body part");
 		String bodyPart = in.nextLine();
+		System.out.println("Enter a number");
+		int score = in.nextInt();
+		System.out.println("Enter a decimal number between 1 and 10");
+		double decNumber = in.nextDouble();
 		
 		
 		
 		//STORY
-		System.out.println("One day during "+sport+" practice, "+girlsName+" broke her "+bodyPart+"");
+		System.out.println("One day during "+sport+" practice, "+girlsName+" broke her "+bodyPart+" when she was trying to shoot "+score+" in the net while there was "+decNumber+" minutes left in the game. Then she went to ");
 		
 
 	}
