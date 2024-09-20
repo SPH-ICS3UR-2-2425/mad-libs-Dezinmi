@@ -13,10 +13,26 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
-		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		System.out.println("Enter an sport");
+		String sport = in.nextLine();
+		System.out.println("Enter a girl's name");
+		String girlsName = in.nextLine();
+		System.out.println("Enter a body part");
+		String bodyPart = in.nextLine();
+		System.out.println("Enter a number between 2 and 4");
+		int score = in.nextInt();
+		System.out.println("Enter a decimal number between 1 and 10");
+		double decNumber = in.nextDouble();
+		System.out.println("Enter a type of houshold");
+		String typeOfHousehold = in.nextLine();
+		System.out.println("Enter a profession");
+		String profession = in.nextLine();
+		
+		
+		
+		//STORY
+		System.out.println("One day during "+sport+" practice, "+girlsName+" broke her "+bodyPart+" when she was trying to shoot "+score+" points in the net while there was "+decNumber+" minutes left in the game. She didn't know that though. Then she went to her "+typeOfHousehold" and told her parent's what has happened today. Her dad, who is a "+profession", checks her arm and uses a "+");
+		
 
 	}
 
