@@ -25,11 +25,13 @@ public class Main {
 		double decNumber = in.nextDouble();
 		System.out.println("Enter a type of houshold");
 		String typeOfHousehold = in.nextLine();
+		System.out.println("Enter a profession");
+		String profession = in.nextLine();
 		
 		
 		
 		//STORY
-		System.out.println("One day during "+sport+" practice, "+girlsName+" broke her "+bodyPart+" when she was trying to shoot "+score+" points in the net while there was "+decNumber+" minutes left in the game. She didn't know that though. Then she went to her "+typeOfHousehold" and told her parent's what has hapopened today");
+		System.out.println("One day during "+sport+" practice, "+girlsName+" broke her "+bodyPart+" when she was trying to shoot "+score+" points in the net while there was "+decNumber+" minutes left in the game. She didn't know that though. Then she went to her "+typeOfHousehold" and told her parent's what has happened today. Her dad, who is a "+profession", checks her arm and uses a "+");
 		
 
 	}
